@@ -1,0 +1,58 @@
+html {
+  height: 100vh;
+}
+.big-container{
+  width: 416px;
+  height: 200px !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30vh;
+  /* margin-bottom: auto; */
+
+}
+.bg1 {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.8491879350348028) 0%, rgba(255,255,255,1) 100%);
+}
+.bg2 {
+  background: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.opros {
+  margin: 0;
+}
+.savol{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.da{
+
+  position: relative;
+  /* left: 100px; */
+  margin-right: 50px;
+}
+.mid-container {
+  height: 100%;
+  border-bottom: 1px solid black;
+  border-left:1px solid black ;
+  border-right:1px solid black ;
+}
+button {
+  width: 35px;
+  height: 25px;
+  border: none;
+  box-shadow: inset -1px -1px 1px;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px;
+}
+button:hover {
+  background-color: rgb(228, 228, 228);
+}
+.buttons {
+  position: relative;
+  width: 400px;
+  height: 100px;
+}
