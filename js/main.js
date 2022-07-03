@@ -10,12 +10,24 @@ netBtn.addEventListener("mouseover", function(){
   let x = Math.random().toFixed(2) *100;
   let y = Math.random().toFixed(2) *100;
   let z = Math.random().toFixed(2) *100;
+  let b = Math.random().toFixed(2) *100;
   
   netBtn.style.left = `${x*2}px`;
   netBtn.style.top = `${y*2}px`;
   netBtn.style.right = `${z*3}px`;
+  netBtn.style.bottom = `${b*3}px`;
 });
 netBtn.addEventListener("click", function(){
+  let x = Math.random().toFixed(2) *100;
+  let y = Math.random().toFixed(2) *100;
+  let z = Math.random().toFixed(2) *100;
+  let b = Math.random().toFixed(2) *100;
+  
+  netBtn.style.left = `${x*2}px`;
+  netBtn.style.top = `${y*2}px`;
+  netBtn.style.right = `${z*3}px`;
+  netBtn.style.bottom = `${b*3}px`;
+  
   console.log("hahahahaha");
 })
 
