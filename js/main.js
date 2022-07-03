@@ -34,7 +34,9 @@ netBtn.addEventListener("click", function(){
 
 daBtn.addEventListener("click", function(){
   text.textContent = `Мы и не сомневались, 
-   что Вы так думаете.`;
+  что Вы так думаете.`;
+  text.style.paddingLeft = "50px"
+  text.style.paddingRight = "50px"
   buttonsDiv.innerHTML = null;
   let okBtn = document.createElement("button");
   okBtn.classList.add("okbtn");
