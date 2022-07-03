@@ -7,10 +7,10 @@ let container = document.querySelector(".big-container");
 
 
 netBtn.addEventListener("mouseover", function(){
-  let x = Math.random().toFixed(2) *100;
-  let y = Math.random().toFixed(2) *100;
-  let z = Math.random().toFixed(2) *100;
-  let b = Math.random().toFixed(2) *100;
+  let x = (Math.random().toFixed(2) *100)-20;
+  let y = (Math.random().toFixed(2) *100)-20;
+  let z = (Math.random().toFixed(2) *100)-20;
+  let b = (Math.random().toFixed(2) *100)-20;
   
   netBtn.style.left = `${(x*2)-20}px`;
   netBtn.style.top = `${y*2}px`;
@@ -18,10 +18,10 @@ netBtn.addEventListener("mouseover", function(){
   netBtn.style.bottom = `${(b*3) +20}px`;
 });
 netBtn.addEventListener("click", function(){
-  let x = Math.random().toFixed(2) *100;
-  let y = Math.random().toFixed(2) *100;
-  let z = Math.random().toFixed(2) *100;
-  let b = Math.random().toFixed(2) *100;
+  let x = (Math.random().toFixed(2) *100)-20;
+  let y = (Math.random().toFixed(2) *100)-20;
+  let z = (Math.random().toFixed(2) *100)-20;
+  let b = (Math.random().toFixed(2) *100)-20;
   
   netBtn.style.left = `${x*2}px`;
   netBtn.style.top = `${y*2}px`;
