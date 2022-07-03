@@ -15,7 +15,7 @@ netBtn.addEventListener("mouseover", function(){
   netBtn.style.left = `${(x*2)-20}px`;
   netBtn.style.top = `${y*2}px`;
   netBtn.style.right = `${z*3}px`;
-  netBtn.style.bottom = `${b*3}px`;
+  netBtn.style.bottom = `${(b*3) +20}px`;
 });
 netBtn.addEventListener("click", function(){
   let x = Math.random().toFixed(2) *100;
@@ -26,7 +26,7 @@ netBtn.addEventListener("click", function(){
   netBtn.style.left = `${x*2}px`;
   netBtn.style.top = `${y*2}px`;
   netBtn.style.right = `${z*3}px`;
-  netBtn.style.bottom = `${b*3}px`;
+  netBtn.style.bottom = `${(b*3) +20}px`;
   
   console.log("hahahahaha");
 })
